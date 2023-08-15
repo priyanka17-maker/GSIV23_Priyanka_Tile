@@ -1,5 +1,5 @@
 
-// eslint-disable-next-line
+
 import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import MovieSearchBar from "./MovieSearchBar";
