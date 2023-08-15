@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### List what you would do to improve your solution if you had 4 more hours available for this task. Describe why you would do those things.
+
+There many things in which we can improve this app:
+ 1. Use of loader
+ 2. lazy loading
+ 3. make more components reusable(like cards, serachbar etc)
+ 4. avoid inline styling
+ 5. try to secure your secrete keys in .env file
+ 6. try catch block for error handling
+
+
