@@ -1,4 +1,4 @@
-
+// eslint-disable-next-line
 import React, { useState } from "react";
 import { InputBase, IconButton, Paper } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";

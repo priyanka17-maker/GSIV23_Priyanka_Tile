@@ -1,4 +1,5 @@
 
+// eslint-disable-next-line
 import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import MovieSearchBar from "./MovieSearchBar";
@@ -71,8 +72,9 @@ const MovieListPage = () => {
   };
 
   return (
-    <>
+    <div style={{ display: "flex", flexDirection: "column", height: "100vh" }}>
       <PageHeader onHomeClick={handleHomeClick}><MovieSearchBar onSearch={handleSearch} /></PageHeader>
+      <div style={{ flex: 1, overflowY: "auto" }}>
       <Grid container spacing={3} style={{ padding: "1.5rem" }}>
         {(searchResults.length > 0 ? searchResults : movies).map((movie) => (
           <Grid item key={movie.id}  xs={12}
@@ -159,7 +161,8 @@ const MovieListPage = () => {
           </Grid>
         ))}
       </Grid>
-    </>
+      </div>
+   </div>
   );
 };
 
